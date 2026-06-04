@@ -26,13 +26,17 @@ Install Python libraries:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ## Install glTF Transform CLI:
+```bash
 npm install --global @gltf-transform/cli
+```
 
 ## Run Offline Version
+```bash
 python main.py
+```
 
 ## After opening the app, click:
 Tools > Download Three.js 0.184.0 build + examples/jsm files
@@ -41,13 +45,17 @@ Then click:
 Tools > Check offline Three.js library
 
 ## Run Online Version
+```bash
 python glb_compressor_viewer_pyqt6_online.py
+```
 The online version requires internet connection because it loads Three.js from CDN.
 
 
 ## Optional Manual Node Setup
+```bash
 npm init -y
 npm install three meshoptimizer
+```
 
 ## Output
 Compressed files will be saved next to the original GLB file:
