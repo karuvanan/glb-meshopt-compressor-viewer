@@ -39,10 +39,12 @@ python main.py
 ```
 
 ## After opening the app, click:
+```text
 Tools > Download Three.js 0.184.0 build + examples/jsm files
 
 Then click:
 Tools > Check offline Three.js library
+```
 
 ## Run Online Version
 ```bash
@@ -59,13 +61,17 @@ npm install three meshoptimizer
 
 ## Output
 Compressed files will be saved next to the original GLB file:
+```text
 model.glb
 model_compressed.glb
+```
 
 ## Controls
+```text
 Left mouse drag   Rotate
 Mouse wheel       Zoom
 Right mouse drag  Pan
+```
 
 ## License
 MIT License
