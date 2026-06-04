@@ -73,6 +73,30 @@ Mouse wheel       Zoom
 Right mouse drag  Pan
 ```
 
+## Offline Ready Package
+
+The source repository does not include the full `libs/` folder to keep the repository lightweight.
+
+If you want a ready-to-use offline package, download it from:
+
+```text
+GitHub Releases > Offline Ready Package
+```
+
+## The release zip includes:
+```text
+main.py
+requirements.txt
+README.md
+LICENSE
+libs/
+```
+## After extracting the zip, run:
+```text
+pip install -r requirements.txt
+python main.py
+```
+
 ## License
 MIT License
 
